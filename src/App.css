@@ -87,3 +87,17 @@ img {
 img:hover {
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 1024px) {
+  .booklist{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+  .bookDetails {
+    flex-direction: column;
+  }
+  .logo{
+    font-size: 1rem;
+  }
+}
